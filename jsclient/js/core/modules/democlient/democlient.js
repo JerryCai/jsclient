@@ -18,7 +18,7 @@ var DemoClient = DemoClient || ( function(undefined) {
 
 					globalConfigs["target"] = "https://default.com";
 					globalConfigs["urlPrefix"] = "/demo/";
-					globalConfigs["version"] = "v1"
+					globalConfigs["version"] = "v1";
 				},
 
 				execute : function(request) {

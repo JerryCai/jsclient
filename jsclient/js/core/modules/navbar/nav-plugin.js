@@ -122,7 +122,7 @@ var NavContent = NavContent || {
 				href : 'http://www.baidu.com'
 				,
 				action : function() {
-				alert('congts , you find me success!')
+				alert('congts , you find me success!');
 				}
 			}]
 		}]

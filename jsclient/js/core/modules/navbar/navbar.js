@@ -69,11 +69,11 @@ client.register({
 						break;
 					}
 					case 'navbar-left' : {
-						_writeTopMenus(leftBarElement,menuItems)
+						_writeTopMenus(leftBarElement,menuItems);
 						break;
 					}
 					case 'navbar-right' : {
-						_writeTopMenus(rightBarElement,menuItems)
+						_writeTopMenus(rightBarElement,menuItems);
 						break;
 					}
 					case 'search':{
@@ -147,7 +147,7 @@ function _writeMenus(parentDiv, menus) {
 	            }
 	        default:
 	            {
-	                throw new Error('The menu.type =[' + menu.type + ']do not supprted by navbar , please check nav_plugin.js')
+	                throw new Error('The menu.type =[' + menu.type + ']do not supprted by navbar , please check nav_plugin.js');
 	            }
 	        }
 	
@@ -187,7 +187,7 @@ function _writeMenu(parentDiv, menu) {
 	        	menu.action();
 	        });
 	    }else{
-	    	menuElement.attr('href', menu.href)
+	    	menuElement.attr('href', menu.href);
 	    }
 	    return liElement;
 	};

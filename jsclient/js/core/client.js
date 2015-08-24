@@ -54,7 +54,7 @@ var client = client || {};
 	 */
 	self.walker = function(methodName) {
 		self._walker(methodName);
-	}
+	};
 	/**
 	 * the _walker shouldn't be used by outside , just for internal call.
 	 * @private
@@ -65,7 +65,7 @@ var client = client || {};
 			var method = self[namespace][methodName];
 			method != undefined && $.isFunction(method) && method();
 		}
-	}
+	};
 }).apply(client);
 
 //client is auto loaded when document ready.
